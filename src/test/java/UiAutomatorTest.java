@@ -15,8 +15,6 @@ public class UiAutomatorTest {
     private AppiumDriver driver;
     private AndroidElements androidElements;
 
-
-
     private URL getUrl() {
         try {
             return new URL("http://127.0.0.1:4723");
